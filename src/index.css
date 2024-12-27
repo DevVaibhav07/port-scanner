@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-bg: #343541;
+  --secondary-bg: #444654;
+  --text-primary: #ECECF1;
+  --text-secondary: #D1D5DB;
+  --accent-color: #10A37F;
+  --accent-hover: #0E906F;
+  --border-color: #4A4B53;
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--text-primary);
+}
+
+.chat-like-container {
+  @apply max-w-4xl mx-auto min-h-screen;
+}
+
+.input-container {
+  @apply fixed bottom-0 left-0 right-0 bg-[#404150] p-4 border-t border-[var(--border-color)];
+}
+
+.result-container {
+  @apply mb-24 p-8;
+}
+
+.scan-form {
+  @apply max-w-3xl mx-auto bg-[var(--secondary-bg)] rounded-lg shadow-lg p-4;
+}
+
+.input-field {
+  @apply bg-[#40414F] border border-[var(--border-color)] text-[var(--text-primary)] rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--accent-color)] w-full;
+}
+
+.button-primary {
+  @apply bg-[var(--accent-color)] hover:bg-[var(--accent-hover)] text-white rounded-md px-4 py-2 transition-colors duration-200 disabled:bg-gray-600;
+}
