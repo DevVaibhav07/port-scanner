@@ -46,6 +46,3 @@ A modern web application for scanning network ports and analyzing their security
 
 Please ensure you have proper authorization before scanning any network or system. This tool should only be used on networks you own or have explicit permission to test.
 
-## License
-
-MIT License
