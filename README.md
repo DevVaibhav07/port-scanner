@@ -34,9 +34,12 @@ A modern web application for scanning network ports and analyzing their security
    ```bash
    # Start backend server
    cd backend
-   npm start
+   npm run dev:backend
 
    # In a new terminal, start frontend
+   npm run dev:frontend
+   
+   # Run both frontend and backend concurrently
    npm run dev
    ```
 
